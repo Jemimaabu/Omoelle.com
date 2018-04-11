@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Montserrat');
+*{
+  box-sizing: border-box;
+}
+::selection {
+    background: yellow;
+}
+body{
+  margin: 0;
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+}
+header{
+  height:100vh;
+  width:100vw;
+  position: fixed;
+  display: flex;
+}
+.background{
+  background: linear-gradient(#FFEBFF,#f391bd);
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.inner{
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 75%;
+  width: 60%;
+  background: linear-gradient(#962558, #541b3d);
+  background-color: #ff9498;
+  box-shadow: 0px 5px 50px 1px white;
+  border-radius: 1%;
+  transform: rotateX(10deg);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner img{
+  height: 50%;
+  box-sizing: content-box;
+  padding: 5%;
+}
+.inner .text{
+  width: 50%;
+  box-sizing: content-box;
+  padding: 5%;
+}
+input{
+  height: 30px;
+  margin: 10px 0px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: transparent;
+  color: #ea3788;
+  width: 80%;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: white;
+}
+input:active{
+  border-color: yellow
+}
+button{
+  border-width: 0.5px;
+  height: 30px;
+  border-radius: 3%;
+  border-style: solid;
+  border-color: white;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ea3788;
+}
+@media only screen and (orientation:portrait){
+  .inner img{width: 50%;}
+  .inner .text{
+    width: 50%;
+    box-sizing: content-box;
+    padding: 5%;
+  }
+
+}

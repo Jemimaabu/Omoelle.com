@@ -1,0 +1,208 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omoelle.com is an online shopping platform designed to meet a woman's every need.">
+    <meta name="author" content="Omoelle">
+    <meta property="og:title" content="Omoelle.com: Perfection at your fingertips">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Omoelle">
+    <meta property="og:url" content="https://www.omoelle.com">
+    <meta property="og:image" content="logo/omoelloIntroLogo.png">
+    <meta property="og:locale" content="en_US">
+    <meta name="theme-color" content="#E50681">
+    <meta name="msapplication-navbutton-color" content="#E50681">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab|Source+Sans+Pro:300">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Omoelle.com: Perfection at your fingertips</title>
+
+    <script type="text/javascript">
+    function scrollWin() {
+        var size = document.getElementById('banner').offsetTop;
+        window.scrollTo(0, size);
+    }
+    window.onscroll = function() {sticky()}
+    function sticky() {
+      var banner = document.getElementById('banner');
+      var main = document.getElementById('main');
+      if (window.pageYOffset > banner.offsetTop){banner.style.position="fixed";main.style.margin="10vh 0px 0px 0px"}
+      else {banner.style.position="relative";main.style.margin="0"}
+    }
+    function sidebar() {
+      var menu = document.getElementById('sidebar');
+      var header=document.getElementById('header');
+        menu.style.display="grid";
+        header.style.display="none"
+      }
+    function closeNav(){
+      var menu = document.getElementById('sidebar');
+      var header=document.getElementById('header');
+      menu.style.display="none";
+      header.style.display="block"
+    }
+    </script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-black"></div>
+      <div class="header-image">
+      <img src="logo/homeIntroS1.jpg" alt="Home Intro Image 1">
+      <img src="logo/homeIntroS2.jpg" alt="Home Intro Image 2">
+      <img src="logo/homeIntroS3.jpg" alt="Home Intro Image 3">
+      <img src="logo/homeIntroS4.jpg" alt="Home Intro Image 4">
+      </div>
+      <div class="header-text"><h1>Omoelle.com</h1><p>Perfection at your fingertips</p><button onclick="scrollWin()">Shop now</button></div>
+    </header>
+    <div id="banner" class="banner">
+      <div class="banner-logo">
+        <img src="logo/omoelloIntroLogo.png" alt="Omoelle Logo">
+      </div>
+      <div class="banner-text">
+        <div class="dropdown">
+          <div class="dropmain">
+            <a href="Home.html?Id=1">Beauty & Skincare</a>
+          </div>
+          <div class="dropmenu">
+            <a href="#">Face</a>
+            <a href="#">Makeup Tools</a>
+            <a href="#">Creams, Lotions & Oils</a>
+            <a href="#">Soaps & Cleansers</a>
+            <a href="#">Hair Care Products & Tools</a>
+            <a href="#">Hand & Foot Care</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropmain">
+            <a href="Home.html?Id=2">Fragrances</a>
+          </div>
+          <div class="dropmenu">
+            <a href="#">Oud</a>
+            <a href="#">Eau</a>
+            <a href="#">Deodorants & Antiperspirants</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropmain">
+            <a href="Home.html?Id=4">Shoes & Bags</a>
+          </div>
+          <div class="dropmenu">
+            <a href="#">Corporate Shoes</a>
+            <a href="#">Casual Shoes</a>
+            <a href="#">Sport Shoes</a>
+            <a href="#">Bridal Shoes</a>
+            <a href="#">Bags</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropmain">
+            <a href="Home.html?Id=6">Beauty & Wellbeing Services</a>
+          </div>
+          <div class="dropmenu">
+            <a href="#">Spa & Wellness Center</a>
+            <a href="#">Gym & Fitness</a>
+            <a href="#">Salon & Hairdressing</a>
+          </div>
+        </div>
+      </div>
+      <div class="banner-icon">
+        <span>Need Help?</span>
+        <span>Your Account</span>
+        <span><i class="material-icons">shopping_cart</i>Cart</span>
+      </div>
+      <div class="sidebar">
+          <button onclick="sidebar(); return false">Menu</button>
+        <div id="sidebar" class="sidebar-menu">
+          <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+            <a href="#">Beauty & Skincare</a>
+            <a href="#">Fragrances</a>
+            <a href="#">Shoes & Bags</a>
+            <a href="#">Beauty & Wellbeing Services</a>
+        </div>
+      </div>
+  </div>
+  <main id="main">
+    <div class="container">
+      <h1> Beauty & Skincare </h1>
+      <div class="container-content">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    </div>
+    <div class="container">
+      <h1> Fragrances </h1>
+      <div class="container-content">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    </div>
+    <div class="container">
+      <h1> Shoes & Bags </h1>
+      <div class="container-content">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    </div>
+    <div class="container">
+      <h1> Beauty & Wellbeing </h1>
+      <div class="container-content">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <b>How to Buy</b>
+      <li>Create an Account</li>
+      <li>Subscribe to Omoelle Alert</li>
+      <li>Making Payments</li>
+      <li>Delivery Options</li>
+      <li>Buyer Protection</li>
+      <li>New User Guide</li>
+    </div>
+    <div>
+      <b>Customer Service</b>
+      <li>Contact Us</li>
+      <li>Frequently Asked Questions</li>
+      <li>Ask Our Community</li>
+      <li>Affiliate Program</li>
+      <li>Transaction Service</li>
+      <li>Recruiting Test Participants</li>
+    </div>
+    <div>
+      <b>Stay Connected</b><br>
+      <img src="images\fb.png" alt="Omoelle on Facebook">
+      <img src="images\tweet.png" alt="Omoelle on Twitter">
+      <img src="images\insta.png" alt="Omoelle on Instagram"><br>
+      <b>Our Brand</b>
+      <li>Tell Us What You Think</li>
+    </div>
+    <div>
+      <b>Subscribe now to get updates on promotions and coupons.</b><br>
+      <input type="email" name="" value="" placeholder="your-email@example.com"><button type="submit" name="button">Subscribe</button><br>
+      <img src="images\cash.png" alt=""><br>
+      <!--<img src="images\remitapay.png" alt="">-->
+    </div>
+    <div class="copyright">Copyright © 2018 Omoelle.com. All rights reserved</div>
+</footer>
+  </body>
+</html>
